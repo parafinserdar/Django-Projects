@@ -14,7 +14,7 @@ movieapp (genel klasörümüzün) altındaki settings.py dosyasına girip INSTAL
 'account',
 Uygulamalarımızı tanıtmak için bunları yaptık.
 INSTALLED.APPS kısmında hazır kodlar var sıfırdan admin,user authorize,sessions yazmamıza gerek yok
-python manage.py runserver -> Projeyi çalıştırmak için
+python manage.py runserver -> Projeyi çalıştırmak için -> konum olarak moviesapp'in içinde olmak gerekiyor.
 http://127.0.0.1:8000/   -> bu adres ile siteye erişim
 control c ile durdurabiliriz
 movieapp/urls.py -> Projeyi gelen istekleri karşılar.
