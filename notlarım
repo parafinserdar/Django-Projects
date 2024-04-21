@@ -1,0 +1,31 @@
+pip -> pip installs packages
+python --version
+pip list -> bilgisayarda kurulu olan python paketlerini listeler.
+pip uninstall django -> djangoyu bilgisayardan siler.
+python -m pip install Django  -> Django'yu pc'ye kurar.
+python -m pip install --upgrade pip  -> pip günceller
+python -m pip install Django==4.0.3  -> istediğin versiyonu kurmak için
+django-admin -> django projesi oluştururken kullanılabilecek komutlar
+django-admin startproject movieapp  -> movieapp isimli bir proje başlatır
+python manage.py startapp movies -> movies adı altında bir klasör oluşturur. Uygulama parçaları.
+python manage.py startapp account 
+movieap (genel klasörümüzün) altındaki settings.py dosyasına girip INSTALLED.APPS kısmına uygulamamıza eklediğimiz uygulama parçalarını ekleyeceğiz.
+'movies',
+'account',
+Uygulamalarımızı tanıtmak için bunları yaptık.
+INSTALLED.APPS kısmında hazır kodlar var sıfırdan admin,user authorize,sessions yazmamıza gerek yok
+python manage.py runserver -> Projeyi çalıştırmak için
+http://127.0.0.1:8000/   -> bu adres ile siteye erişim
+control c ile durdurabiliriz
+movieapp/urls.py -> Projeyi gelen istekleri karşılar.
+movies'deki urls.py'yi ana uygulamadaki urls.py'ye tanıtmamız gerekiyor.
+
+lorem picsum random resimler için güzel bir site
+
+migration -> Uygulamadaki değişikliklerin veri tabanına aktarılması için
+
+python manage.py migrate -> migration oluşturmak için (onaylanmamışları onaylar)
+python manage.py makemigrations -> migration oluşturmak için bakıyo dosyalara özel sql scripti ile oluşturuyor.
+
+python manage.py createsuperuser -> yetkili bir user oluşturmak için (admin paneli)
+django documentaion -> sitesinde kompleks diğer django özellikler için
