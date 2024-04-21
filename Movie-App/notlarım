@@ -9,7 +9,7 @@ django-admin -> django projesi oluştururken kullanılabilecek komutlar
 django-admin startproject movieapp  -> movieapp isimli bir proje başlatır
 python manage.py startapp movies -> movies adı altında bir klasör oluşturur. Uygulama parçaları.
 python manage.py startapp account 
-movieap (genel klasörümüzün) altındaki settings.py dosyasına girip INSTALLED.APPS kısmına uygulamamıza eklediğimiz uygulama parçalarını ekleyeceğiz.
+movieapp (genel klasörümüzün) altındaki settings.py dosyasına girip INSTALLED.APPS kısmına uygulamamıza eklediğimiz uygulama parçalarını ekleyeceğiz.
 'movies',
 'account',
 Uygulamalarımızı tanıtmak için bunları yaptık.
